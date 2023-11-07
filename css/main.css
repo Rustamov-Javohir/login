@@ -1,0 +1,169 @@
+/* montserrat-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v25-latin-300.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-300.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-500.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v25-latin-600.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2148C0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-image: url('../images/BG.svg');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1280px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__img {
+    display: block;
+    width: 120px;
+    height: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 71px;
+}
+
+.wrapper__form {
+    width: 300px;
+    margin-bottom: 11px;
+}
+
+.wrapper__input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 300;
+    padding: 13px 12px 12px 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.wrapper__username {
+    margin-bottom: 20px;
+}
+
+.wrapper__input {
+    color: #fff;
+}
+
+.wrapper__username::placeholder {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.wrapper__username::placeholder::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.wrapper__password {
+    margin-bottom: 43px;
+}
+
+.wrapper__password::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.wrapper__btn {
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2148C0;
+    cursor: pointer;
+}
+
+.wrapper__link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+}
